@@ -473,7 +473,11 @@ musica.play();
 
 } // Fim da função start 
 
-
-
-
-//continua
+//Reinicia o Jogo
+		
+function reiniciaJogo() {
+	somGameover.pause();
+	$("#fim").remove();
+	start();
+	
+} //Fim da função reiniciaJogo
